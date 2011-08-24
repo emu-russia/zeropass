@@ -1,0 +1,159 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 339, 171
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Zero Tolerance Password Recovery!!"
+FONT 8, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_AMMO3,10,40,25,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    CONTROL         "S.Ishii",IDC_CHECK_ISHII,"Button",BS_AUTOCHECKBOX,10,65,
+                    70,10
+    CONTROL         "S.Haile",IDC_CHECK_HAILE,"Button",BS_AUTOCHECKBOX,10,80,
+                    65,10
+    CONTROL         "J.Wolf",IDC_CHECK_WOLF,"Button",BS_AUTOCHECKBOX,10,95,
+                    65,10
+    CONTROL         "T.Ramos",IDC_CHECK_RAMOS,"Button",BS_AUTOCHECKBOX,10,
+                    110,65,10
+    CONTROL         "T.Gjoerup",IDC_CHECK_GJOERUP,"Button",BS_AUTOCHECKBOX,
+                    10,125,65,10
+    COMBOBOX        IDC_COMBO_W3,10,25,60,75,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_AMMO4,75,40,25,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_W4,75,25,60,75,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_AMMO0,140,40,25,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_W0,140,25,60,75,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_AMMO1,205,40,25,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_W1,205,25,60,75,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_AMMO2,270,40,25,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_W2,270,25,60,75,CBS_DROPDOWN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_E,179,62,25,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Energy:",IDC_STATIC,145,60,30,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_L,179,79,25,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Level:",IDC_STATIC,150,77,25,15,SS_CENTERIMAGE
+    LTEXT           "Level Description",IDC_STATIC_LEVELDESC,210,77,120,15,
+                    SS_CENTERIMAGE
+    LTEXT           "Slot 0:",IDC_STATIC,10,5,30,15,SS_CENTERIMAGE
+    LTEXT           "Slot 1:",IDC_STATIC,75,5,30,15,SS_CENTERIMAGE
+    LTEXT           "Slot 2:",IDC_STATIC,140,5,30,15,SS_CENTERIMAGE
+    LTEXT           "Slot 3:",IDC_STATIC,205,5,30,15,SS_CENTERIMAGE
+    LTEXT           "Slot 4:",IDC_STATIC,270,5,30,15,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,0,140,335,1,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PASS,65,149,65,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Your Password:",IDC_STATIC,10,147,55,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Check PassWord",IDC_BUTTON_CHECK,270,145,65,20
+    PUSHBUTTON      "Make PassWord",IDC_BUTTON_MAKE,200,145,65,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "Zerotol.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
