@@ -1,6 +1,6 @@
 Zero Tolerance password generator, based on reverse engineering of game ROM.
 
-<img src='http://ogamespec.com/imgstore/whc4e54f1be2fe54.jpg'>
+![PNG](/imgstore/whc4e54f1be2fe54.png)
 
 Zero Tolerance is a 1994 video game developed by Technopop and published by Accolade exclusively for the Sega Mega Drive/Genesis video game console.<br>
 <br>
