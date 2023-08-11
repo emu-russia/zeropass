@@ -31,6 +31,7 @@
 #define IDC_EDIT_AMMO0                  1024
 #define IDC_EDIT_AMMO1                  1025
 #define IDC_COMBO_W1                    1026
+#define IDC_STATIC                      -1
 
 // Next default values for new objects
 // 

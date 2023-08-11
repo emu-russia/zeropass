@@ -182,11 +182,11 @@ static void MakePassword(char password[10])
     pd.Ramos = IsDlgButtonChecked(dlg, IDC_CHECK_RAMOS) == BST_CHECKED ? 1 : 0;
     pd.Gjoerup = IsDlgButtonChecked(dlg, IDC_CHECK_GJOERUP) == BST_CHECKED ? 1 : 0;
 
-    pd.Weapon[0] = SendDlgItemMessage(dlg, IDC_COMBO_W0, CB_GETCURSEL, 0, 0);
-    pd.Weapon[1] = SendDlgItemMessage(dlg, IDC_COMBO_W1, CB_GETCURSEL, 0, 0);
-    pd.Weapon[2] = SendDlgItemMessage(dlg, IDC_COMBO_W2, CB_GETCURSEL, 0, 0);
-    pd.Weapon[3] = SendDlgItemMessage(dlg, IDC_COMBO_W3, CB_GETCURSEL, 0, 0);
-    pd.Weapon[4] = SendDlgItemMessage(dlg, IDC_COMBO_W4, CB_GETCURSEL, 0, 0);
+    pd.Weapon[0] = (int)SendDlgItemMessage(dlg, IDC_COMBO_W0, CB_GETCURSEL, 0, 0);
+    pd.Weapon[1] = (int)SendDlgItemMessage(dlg, IDC_COMBO_W1, CB_GETCURSEL, 0, 0);
+    pd.Weapon[2] = (int)SendDlgItemMessage(dlg, IDC_COMBO_W2, CB_GETCURSEL, 0, 0);
+    pd.Weapon[3] = (int)SendDlgItemMessage(dlg, IDC_COMBO_W3, CB_GETCURSEL, 0, 0);
+    pd.Weapon[4] = (int)SendDlgItemMessage(dlg, IDC_COMBO_W4, CB_GETCURSEL, 0, 0);
 
     // Check for the same entries.
     for(int i=0; i<4; i++)
@@ -220,7 +220,7 @@ static void MakePassword(char password[10])
     MakePassword(&pd, password);
 }
 
-static BOOL CALLBACK DialogProc(HWND hwndDlg, UINT uMsg, WPARAM  wParam, LPARAM lParam)
+static INT_PTR DialogProc(HWND hwndDlg, UINT uMsg, WPARAM  wParam, LPARAM lParam)
 {
     char password[10];
 
@@ -265,7 +265,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 {
 
     DialogBox(hInstance, MAKEINTRESOURCE(IDD_DIALOG), NULL, DialogProc);
-
 
     return 0;
 }
