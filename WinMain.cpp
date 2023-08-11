@@ -220,7 +220,7 @@ static void MakePassword(char password[10])
     MakePassword(&pd, password);
 }
 
-static INT_PTR DialogProc(HWND hwndDlg, UINT uMsg, WPARAM  wParam, LPARAM lParam)
+static INT_PTR CALLBACK DialogProc(HWND hwndDlg, UINT uMsg, WPARAM  wParam, LPARAM lParam)
 {
     char password[10];
 
