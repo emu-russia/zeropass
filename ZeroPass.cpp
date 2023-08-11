@@ -225,7 +225,8 @@ bool CheckPassword(PassDecode *pd, char password[10])
     */
     for(i=0, ptr=buf1; i<9; i++)
     {
-        for(int alph=0; alph<64; alph++)
+        int alph;
+        for(alph=0; alph<64; alph++)
         {
             if(mess[alph] == password[i])
             {
